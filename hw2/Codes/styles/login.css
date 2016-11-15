@@ -1,0 +1,150 @@
+/* 	css rules for login.html page
+	author: 9231004;
+	date: 21-8-1395
+	version: 0.1;
+*/
+
+/*
+	navbar full width?!
+	focus and hover
+
+
+*/
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    display: table;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #023;
+    background-color: #023;
+    width: 100%;
+}
+
+li {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 25;
+}
+
+#ceitgames {
+	float: right;
+    margin-right: 200px;
+}
+
+#icon {
+	float: left;
+    margin-left: 100px;	
+
+}
+
+form {
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	margin: auto;
+	margin-top: 100px;
+	background-color: white;
+	text-align: right;
+	width: 25%;
+	color: gray;
+	height: 250px;
+}
+
+input {
+	margin-bottom: 10px;
+	border-style: none;
+}
+
+input.input {
+	text-align: right;
+	border-bottom: solid;
+	border-color: lightgray;
+	border-width: 1;
+	width: 80%;
+	color: lightgray;
+}
+
+
+fieldset{
+	border-style: none;
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+//	float: right;
+}
+
+ fieldset > legend{
+	//float:right;
+	//width: 100%;
+	margin-left: 130px;
+	margin-top: 10px;
+	//font-weight: 90%;
+	font-size: 90%;
+}
+
+#newaccount {
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	background-color: #bdbdbd;
+	color: white;
+	margin: auto;
+	padding-top: 8px;
+	text-align: center;
+	height: 30px;
+	border-style: none;
+	width: 25%;
+	font-size: 90%;
+}
+
+#newaccount:hover {
+	font-size: 110%;
+}
+
+#forgetpass {
+	text-align: center;
+	//float: right;
+	margin: auto;
+	margin-top: 3px;
+	background-color: white;
+	width: 50%;
+	font-size: 75%;
+	padding-top:5px;
+}
+
+#ffpass:hover{
+	font-size:120%;
+}
+
+#button {
+	background-color: #c2185b ;
+//	border: none;
+	margin:0 auto;
+	width: 81%;
+	margin-right: 13px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-bottom: 5px
+
+
+}
+#button:hover{
+	color: black;	
+}
+
+.formbut {
+	float: right;
+	//margin-left: 4px;
+	margin-top: 6px;
+	//margin-right: 10px;
+}
+
+#lockic {
+	margin-left: 2px;
+	margin-right: 3px;
+}

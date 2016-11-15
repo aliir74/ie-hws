@@ -1,0 +1,60 @@
+/* 	global css rules in hw2 pages like font-family (@font-face), boxes, and login-register inputs
+	author: 9231004;
+  date: 21-8-1395
+	version: 0.1;
+*/
+
+
+
+@font-face {
+  font-family: Shabnam;
+  src: url('Shabnam.eot');
+  src: url('Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('Shabnam.woff') format('woff'),
+       url('Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('Shabnam-Bold.eot');
+  src: url('Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Shabnam-Bold.woff') format('woff'),
+       url('Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('Shabnam-Light.eot');
+  src: url('Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+       url('Shabnam-Light.woff') format('woff'),
+       url('Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+body {
+	background-color: #4682B4   ;
+	font-family: shabnam;
+}
+
+.inp:hover{
+	color: #7F171F !important;
+	border-color: #7F171F !important;
+}
+
+.inp:focus {
+	color: black !important;
+  border-color: black !important;
+}
+
+
+.input:hover{
+  color: #7F171F !important;
+  border-color: #7F171F !important;
+}
+
+.input:focus {
+  color: black !important;
+  border-color: black !important;
+}
